@@ -1,0 +1,149 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+   width: 80%;
+   margin: auto;
+}
+
+header {
+   display: flex;
+   padding: 45px;
+   align-items: center;
+   height: 10vh;
+}
+
+.image img {
+   width: 80px;
+   height: 80px;
+}
+.left {
+   align-items: center;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+.left,
+.nav-links {
+   display: flex;
+   letter-spacing: 1px;
+}
+header .left,
+nav {
+   flex: 1;
+}
+header .nav-links {
+   list-style: none;
+   justify-content: space-around;
+}
+header .nav-links a:hover {
+   transition: 0.25s ease;
+}
+
+header .nav-links a:hover {
+   color: #00d1b2;
+   font-size: 17px;
+}
+.myStyle{
+   color: #00d1b2;
+   font-size: 17px;
+}
+section {
+   height: 80vh;
+}
+section .buttons {
+   display: flex;
+   align-items: center;
+   width: 275px;
+   justify-content: space-around;
+   margin: auto;
+   margin-top: 25px;
+}
+section .buttons a {
+   border: 2px solid #e61f5b;
+   padding: 5px;
+   border-radius: 4px;
+   color: #e61f5b;
+   transition: 0.25s ease;
+}
+section .about-me a {
+   background-color: #e61f5b;
+   color: white;
+}
+section .about-me a:hover {
+   background-color: white;
+   color: #e61f5b;
+   padding: 10px 10px;
+}
+
+section .view-portfolio a:hover {
+   background-color: #e61f5b;
+   color: white;
+   padding: 10px 10px;
+}
+section .content {
+   height: 320px;
+}
+.heading {
+   font-size: 80px;
+}
+.des {
+   margin-top: 10px;
+   font-size: 25px;
+}
+.bio {
+   text-align: center;
+   margin-top: 60px;
+}
+
+footer {
+   height: 15.8vh;
+   align-items: center;
+}
+.footer-content ul {
+   list-style: none;
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-evenly;
+   flex: 1;
+}
+.footer-content li {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   /* justify-content: space-around; */
+}
+.footer-content a {
+   transition: 0.25s;
+}
+.footer-content a:hover {
+   font-size: 18px;
+}
+.linkedin:hover {
+   color: #0077b5;
+}
+.facebook:hover {
+   color: #4867aa;
+}
+.email:hover {
+   color: #c9302c;
+}
+
+.footer-content .rights {
+   font-family: monospace;
+   font-size: 12px;
+   margin-top: 12px;
+}
+.footer-content {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 450px;
+   height: 15.2vh;
+   margin: auto;
+}
